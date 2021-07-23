@@ -1,2 +1,2 @@
 release: python -m etl.etl
-web: gunicorn app.app:app
+# Removed for the ETL-only test web: gunicorn app.app:app
